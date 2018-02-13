@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+</head>
+<body>
+<div id="a">
+    hello my name is Vedaang
+</div>
+<input id="c" type="text" onchange="my()">
+<!--<button id="B">Change for your name</button>-->
+<script>
+    window.onload = function () {
+
+        //  let button=document.getElementById("c");
+
+    }
+    /*button.onclick=function () {
+        name.innerText=c;
+    }*/
+    console.log("LOGGED");
+    function my() {
+        let change= document.getElementById("a");
+        console.log("yo")
+        let input = document.getElementById("c");
+        let c = "My name is" + input.value;
+        console.log(c);
+        change.innerText = c;
+    }
+</script>
+</body>
+</html>

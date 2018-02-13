@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="df005ce3-a697-4bf1-b22c-d5286ed30225" name="https://github.com/Vedaang-Chopra/Web-Development-Old--Codes-Practiced" url="https://github.com/Vedaang-Chopra/Web-Development-Old--Codes-Practiced">
+        <fileTransfer host="https://github.com/Vedaang-Chopra/Web-Development-Old--Codes-Practiced" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+</head>
+<div id="change">
+    dnljadndljnlnflnljnlanlcnlnclnclnlnlsnljcnakbckbdskbckhbskbckjbskjnksbvkbbk
+</div>
+<input id="i">
+<button id="b" >Click for input data</button>
+<script>
+    window.onload= function () {
+
+        let l = document.getElementById("change");
+        let b = document.getElementById("b");
+        let i =document.getElementById("i");
+        b.onclick = function () {
+            l.innerHTML = i.value;
+    }
+    }
+</script>
+</body>
+</html>
